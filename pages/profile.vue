@@ -77,6 +77,7 @@ export default {
       this.enrollments = this.$axios
         .get(`/api/v1/users/${this.$auth.user.id}/enrollment`)
         .then(res => {
+          console.log(res);
           this.enrollments = res.data.data;
           console.log(this.enrollments);
         })

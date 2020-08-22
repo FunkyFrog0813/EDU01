@@ -6,6 +6,7 @@
         <v-btn text @click="$auth.logout()">Logout</v-btn>
       </div>
       <div v-else>
+        <v-btn text to="/">Home</v-btn>
         <v-btn text to="/login">Login</v-btn>
         <v-btn text to="/register">Register</v-btn>
       </div>
