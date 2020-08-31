@@ -63,10 +63,10 @@
               <div></div>
             </v-card-text>
             <v-card-actions>
-              <NuxtLink :to="'/service/' + service._id">
+              <NuxtLink :to="'/offering/' + service._id">
                 {{ service.title }}
               </NuxtLink>
-              <v-btn color="Blue" text :to="'/service/' + service._id">
+              <v-btn color="Blue" text :to="'/offering/' + service._id">
                 View detail
               </v-btn>
               <v-btn color="orange" text>
