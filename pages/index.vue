@@ -14,6 +14,7 @@
         </v-sheet>
       </v-carousel-item>
     </v-carousel>
+    
     <!--<div>
       <div v-if="$auth.loggedIn">
         <h1 class="title">Welcome Back! {{ $auth.user.name }}</h1>

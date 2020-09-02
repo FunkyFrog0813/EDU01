@@ -62,6 +62,7 @@ export default {
   build: {},
 
   auth: {
+    redirect: false,
     strategies: {
       local: {
         endpoints: {
