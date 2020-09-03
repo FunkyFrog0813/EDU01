@@ -49,7 +49,7 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    "bootstrap-vue/nuxt",
+    //"bootstrap-vue/nuxt",
     "@nuxtjs/axios",
     "@nuxtjs/auth"
   ],
@@ -62,7 +62,7 @@ export default {
   build: {},
 
   auth: {
-    redirect: false,
+    redirect: {home: '/profile'},
     strategies: {
       local: {
         endpoints: {

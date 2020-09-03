@@ -103,7 +103,7 @@ export default {
 
   methods: {
     init() {
-      this.services = this.$axios
+      this.services =  this.$axios
         .get(`/api/v1/services`)
         .then(res => {
           this.services = res.data.data;

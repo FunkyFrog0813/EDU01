@@ -98,9 +98,7 @@ export default {
       this.enrollments = this.$axios
         .get(`/api/v1/services/${this.$route.params.id}`)
         .then(res => {
-          console.log(res);
           this.service = res.data.data;
-          console.log(this.service)
         })
         .catch(err => {
           console.log(err);
